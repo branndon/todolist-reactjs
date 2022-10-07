@@ -1,0 +1,15 @@
+:focus {
+    outline: transparent;
+    box-shadow: 0 0 0 2px var(--green-500);
+}
+
+body {
+    background: $gray-600;
+    -webkit-font-smoothing: antialiased;
+}
+
+body, input, textarea, button {
+    font-size: 1rem;
+    font-weight: 400;
+    font-family: 'Inter', sans-serif;
+}

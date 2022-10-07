@@ -1,0 +1,21 @@
+.emptyList {
+    text-align: center;
+
+    p,
+    h3 {
+        font-size: 16px;
+        color: $gray-300;
+        font-weight: 400;
+        line-height: 140%;
+        font-family: 'Inter', sans-serif;
+    }
+
+    h3 {
+        font-weight: 700;
+    }
+
+    svg {
+        color: $gray-500;
+        margin-bottom: 1rem;
+    }
+}

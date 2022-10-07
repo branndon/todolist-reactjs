@@ -1,0 +1,21 @@
+.button {
+    border: 0;
+    padding: 1rem;
+    display: flex;
+    color: white;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 8px;
+    align-items: center;
+    box-sizing: border-box;
+    background: $blue-dark;
+    justify-content: space-between;
+
+    &:hover {
+        background: $blue;
+    }
+
+    > svg {
+        margin-left: 8px;
+    }
+}

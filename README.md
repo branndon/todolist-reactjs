@@ -1,6 +1,6 @@
 # Todo list
 
-##### Para visualizar o resultado do projeto [clique aqui](http://localhost:5173/).
+##### Para visualizar o resultado do projeto [clique aqui](https://todolist-reactjs-gold.vercel.app/){:target="_blank"}.
 
 Para instalar as dependências do projeto, utilize o comando abaixo.
 ```npm i```

@@ -15,7 +15,7 @@ import { EmptyList } from './components/EmptyList/EmptyList'
 
 export function App() {
 
-    const [tasks, setTasks] = useState([])
+    const [tasks, setTasks] = useState<any[]>([])
     const [newTask, setNewTask] = useState('')
 
     function addTask(event: FormEvent) {
@@ -26,9 +26,11 @@ export function App() {
             label: newTask,
             isCompleted: false
         }
-        const newListOfTasks = [...tasks, newTaskToAdd]
 
-        setTasks(newListOfTasks)
+        setTasks((state) => {
+            return [...state, newTaskToAdd]
+        })
+
         setNewTask('');
     }
 
